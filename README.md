@@ -2,32 +2,62 @@
 
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This project is an engaging implementation of a classic arcade-style game, reimagined with a spider theme. As a software engineer, I wanted to create an interactive game that combines real-time graphics, sound effects, and user input handling to create an entertaining experience while exploring game development concepts.
 
-{Provide a description the game that you wrote. Describe how to play your game.}
+The game is a variation of the classic whack-a-mole arcade game, where players must click on spiders as they appear in different holes across the screen. The game features:
+- Score tracking system (+1 for hits, -1 for misses)
+- Sound effects for hits, misses, and spider appearances
+- Visual feedback with colored graphics
+- Randomized spider movement patterns
 
-{Describe your purpose for writing this software.}
+To play:
+1. Run the game using Python
+2. Click on the orange spiders as they appear in the white holes
+3. Score points by successfully hitting spiders
+4. Avoid clicking empty holes as this will reduce your score
+5. Try to achieve the highest score possible!
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the game being played and a walkthrough of the code.}
+The purpose of developing this game was to gain hands-on experience with:
+- Real-time graphics rendering using Pygame
+- Event handling and user input processing
+- Sound integration in gaming applications
+- Game state management
+- Timing and animation control
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+The game was developed using:
+- Visual Studio Code as the IDE
+- Python 3.x as the programming language
+- Git for version control
 
-{Describe the programming language that you used and any libraries.}
+Key technologies and libraries:
+- Pygame - For game development, including:
+  - Graphics rendering
+  - Event handling
+  - Sound system
+  - Display management
+- Random library - For randomizing spider appearances
+- OS library - For file system operations
+- Sys library - For system-level operations
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Pygame Documentation](https://www.pygame.org/docs/)
+* [Python Documentation](https://docs.python.org/3/)
+* [Real Python - Pygame Tutorial](https://realpython.com/pygame-a-primer/)
+* [Pygame Sound Tutorial](https://www.pygame.org/docs/ref/mixer.html)
+* [Free sound website](https://freesound.org/people/EdgardEdition/sounds/113635/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Add difficulty levels that affect spider speed and spawn rate
+* Implement a high score system with persistent storage
+* Add different types of spiders with varying point values
+* Create power-ups or special abilities
+* Add background music and more sound effects
+* Implement an animation system for smoother visuals
+* Add a pause menu and game over screen
 
