@@ -23,7 +23,7 @@ The purpose of developing this game was to gain hands-on experience with:
 - Taking user input from the keyboard or mouse
 - Moveable objects
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=jB0daiQh1yo)
 
 # Development Environment
 

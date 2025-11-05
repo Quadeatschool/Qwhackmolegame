@@ -8,7 +8,7 @@ pygame.mixer.init()  # Initialize the sound mixer
 
 #screen dimentions------------
 screen_width = 800
-screen_height = 800
+screen_height = 600
 screen_size = (screen_width, screen_height)
 FPS = 60
 clock = pygame.time.Clock()
@@ -24,7 +24,6 @@ text_color = (100, 100, 100)
 #game specs----------------
 hole_radius = 50
 spider_radius = 40
-mole_up_time = 800
 min_time_spider_is_volnurable = 700
 max_time_spider_is_volnurable = 1600
 time_spider_is_hidden = 1000
@@ -68,9 +67,8 @@ active_spider_index = -1
 last_spider_action_time = 0
 current_spider_up_duration = 0
 
+
 #game functions----------
-
-
 
 def Render_elements():
     screen.fill(background_color)
@@ -89,7 +87,7 @@ def Render_elements():
 def spawn_spider():
     global active_spider_index, last_spider_action_time, current_spider_up_duration
 
-    possible_indices = [i for i in range(len(hole_grid)) if i != active_spider_index]
+    possible_indices = [indices for indices in range(len(hole_grid)) if indices != active_spider_index]
 
     if not possible_indices:
         return
